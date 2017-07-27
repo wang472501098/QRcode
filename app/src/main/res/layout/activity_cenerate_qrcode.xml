@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    android:gravity="center_horizontal">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <EditText
+        android:id="@+id/et_context"
+        android:textSize="16sp"
+        android:hint="请输入您要生成的内容"
+        android:gravity="top"
+        android:padding="@dimen/height_8dp"
+        android:layout_margin="@dimen/height_8dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_180dp" />
+    <TextView
+        android:paddingTop="@dimen/height_8dp"
+        android:paddingBottom="@dimen/height_8dp"
+        android:paddingLeft="@dimen/height_18dp"
+        android:paddingRight="@dimen/height_18dp"
+        android:layout_marginTop="@dimen/height_18dp"
+        android:id="@+id/btn_cenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_bg"
+        android:gravity="center"
+        android:text="生成二维码"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray_text">#5c5c5c</color>
+    <color name="text_color">#323232</color>
+    <color name="bg_color">#F0F0F0</color>
+    <color name="watermark_color">#C0C0C0</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="line">#E4E4E4</color>
+    <color name="btn_green">#24AA42</color>
+    <color name="color_joke_item_bg">#2B2B2B</color>
+    <!--zxing-->
+    <color name="transparent_half">#33000000</color>
+    <color name="lightgreen">#99CC33</color>
+    <color name="blue_wifi_ap">#278eff</color>
+    <color name="blue_wifi_dialog_bg">#288DFF</color>
+    <color name="text_black">#333333</color>
+    <color name="blue_dark">#0051A8</color>
+    <color name="result_view">#b0000000</color>
+    <color name="dialog_red">#D63433</color>
+    <color name="dia_yellow">#f1bb6f</color>
+    <color name="dia_yellow_light">#f2d1a3</color>
+</resources>
